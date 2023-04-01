@@ -1,0 +1,7 @@
+{
+    "port": 80,
+    "client_id": "",
+    "client_secret": "",
+    "redirect_url": "https://accounts.spotify.com/api/token",
+    "refresh_token": ""
+}

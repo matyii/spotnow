@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("blob.svg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card {
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    background-color: #0e0c0c;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #1ed760;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#cover {
+    width: 50%;
+    max-width: 200px;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+    transition: 0.3s;
+}
+
+#cover:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0px 0px 10px black);
+}
+
+.song-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.song-info p {
+    margin: 10px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        max-width: 500px;
+    }
+
+    #cover {
+        width: 50%;
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    #cover {
+        width: 60%;
+        max-width: 120px;
+    }
+
+    .song-info p {
+        font-size: 14px;
+    }
+}
+
+#promo {
+    color: #1ed760;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+#promo:hover {
+    background-color: #1ed760;
+    color: black;
+    transform: scale(1.05);
+}

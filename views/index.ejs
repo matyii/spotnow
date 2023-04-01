@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/icon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/2517068488.js" crossorigin="anonymous"></script>
+    <title>I'm currently listening to "<%= track %>" by "<%= artists %>"</title>
+</head>
+<body>
+    <div class="card">
+        <h1>I'm currently listening to:</h1>
+        <img src="<%= cover %>" id="cover">
+        <div class="song-info">
+            <p><i class="fa-solid fa-music"></i><%= track %></p>
+            <p><i class="fa-solid fa-compact-disc"></i><%= album %></p>
+            <p><i class="fa-solid fa-user"></i><%= artists %></p>
+            <p><i class="fa-solid fa-headphones"></i><%= activeDevice %></p>
+            <a id="promo" target="_blank" href="https://github.com/matyii/spotnow">Get your page now!</a>
+        </div>
+    </div>
+</body>
+</html>
