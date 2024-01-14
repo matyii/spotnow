@@ -2,7 +2,6 @@
 
 # SpotNow
 Show your currently playing Spotify song in a style!
-This is a "remastered" version of my [spotify_np](https://github.com/matyii/spotify_np) repository.
 
 ### Features
 - Clean custom [homepage](ui.png)
